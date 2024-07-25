@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="bg-yellow-300"lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steelflex!</title>
+     <link rel="stylesheet" href="output.css">
+</head>
+<body class="">
+    <nav class="w-full max-h-24 flex flex-row justify-between fixed">
+        <img src="Group 1.svg">
+        <div>
+            <a href="">
+
+            </a>
+            <a href="">
+
+            </a>
+            <a href="">
+
+            </a><a href="">
+
+            </a>
+        </div>
+        <btn onclick="toggleMenu()" class="pr-8 flex justify-center align-middle md-lg:hidden">
+            <img src="Frame 1.svg" class="">
+        </btn>
+    </nav>
+    <div id="menu"class="w-full flex justify-center hidden">
+        <div class="flex flex-col pt-16 text-center w-8/12 justify-center align-middle">
+                <div class=" justify-center items-center flex flex-col">
+                        <a href="" class="dropdown-p">Inicio</a>
+                        <a href="" class="dropdown-p">Sobre Nosotros</a>
+                        <a href="" class="dropdown-p">Suministros</a>
+                        <a href="" class="dropdown-p">Servicios</a>
+                    <div class="dropdown-p bg-gray-950 rounded-md text-white w-full">
+                        <a href="mailto:carvachopablo123@gmail.com">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let menu = document.getElementById("menu");
+
+        // open/close the menu when the user clicks on the button
+        function toggleMenu() {
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        }
+    </script>
+    <div class="flex justify-center">
+        <div class="w-4/5 flex justify-center">
+            
+        </div>
+    </div>
+</body>
+</html>
