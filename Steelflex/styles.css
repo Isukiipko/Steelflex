@@ -1,0 +1,27 @@
+:root{
+    --yellow:#FFD55E;
+}
+html{
+    background-color: var(--yellow);
+    overflow-x: hidden;
+}
+section{
+    background-color: var(--yellow);
+}
+.text-yellow{
+    color: var(--yellow);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+.navbar-nav > li > .dropdown-menu { background-color: var(--yellow); }
+.navbar-nav > li > .dropdown-menu a:link,
+.navbar-nav > li > .dropdown-menu a:hover { background-color: var(--yellow);}
+.navbar .dropdown-item:active {
+    background-color: var(--yellow);
+  }
+.center-children{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
